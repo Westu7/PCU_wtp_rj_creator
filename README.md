@@ -28,7 +28,7 @@ Skrypt `Pobierz_Trase_Wtp.py` służy do pobierania nazw przystanków z rozkład
    - **Oryginalna nazwa** – pełna nazwa przystanku,
    - **Czas przejazdu (min)** – liczba minut przejazdu od poprzedniego przystanku,
    - **Przystanek na żądanie** – wartość `1`, jeśli przystanek jest na żądanie, `0` w przeciwnym razie.
-5. Po wygenerowaniu danych otwórz plik `ZTM WAWA ROUTE GEN.xlsx` i odnieś się do `trasa.xlsx` w arkuszu `DANE PRZYSTANKÓW ZTM`.
+5. Po wygenerowaniu danych otwórz plik `ZTM WAWA ROUTE GEN.xlsx` i odnieś się do `trasa.xlsx` w arkuszu `PCU FILE`.
 6. W arkuszu `DANE PRZYSTANKÓW ZTM` zdefiniuj nazwy przystanków zgodne z pobranymi danymi oraz przypisz im odpowiednie kody zapowiedzi.
 
 ## Przykładowy link do pobierania rozkładu
@@ -36,8 +36,7 @@ Skrypt korzysta z poniższego formatu linku do pobierania rozkładów:
 [https://www.wtp.waw.pl/rozklady-jazdy/?wtp_dt=2025-03-21&wtp_md=3&wtp_ln=111&wtp_st=2148&wtp_pt=01&wtp_dr=A&wtp_vr=0&wtp_dy=5&wtp_dc=1](https://www.wtp.waw.pl/rozklady-jazdy/?wtp_dt=2025-03-21&wtp_md=3&wtp_ln=111&wtp_st=2148&wtp_pt=01&wtp_dr=A&wtp_vr=0&wtp_dy=5&wtp_dc=1)
 
 ## Aktualność danych
-Baza przystanków w pliku `ZTM WAWA ROUTE GEN.xlsx` jest aktualna na dzień **21.03.2025**. 
-Aby odświeżyć dane, należy ponownie uruchomić skrypt i otworzyć wygenerowany plik `trasa.xlsx`.
+Baza przystanków w pliku `ZTM WAWA ROUTE GEN.xlsx` jest aktualna na dzień **21.03.2025**
 
 ## Uwagi
 - Plik `trasa.xlsx` **nie może być otwarty** podczas działania skryptu.
